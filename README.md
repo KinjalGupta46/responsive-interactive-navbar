@@ -32,6 +32,11 @@ A sleek and modern **navigation menu** built using **HTML, CSS, and JavaScript**
 
 ---
 
+## Screenshots
+
+
+---
+
 
 ## Author
 
