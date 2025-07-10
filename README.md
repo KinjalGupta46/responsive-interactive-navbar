@@ -33,10 +33,11 @@ A sleek and modern **navigation menu** built using **HTML, CSS, and JavaScript**
 ---
 
 ## Screenshots
-
+![Screenshot 1](Screenshots/130.png)
+![Screenshot 2](Screenshots/151.png)
+![Screenshot 3](Screenshots/209.png)
 
 ---
-
 
 ## Author
 
