@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="logo">TechNova</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to TechNova</h1>
+      <p>Your gateway to innovative technology solutions</p>
+      <a href="#services" class="cta-button">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="content">
+      <h2>About Us</h2>
+      <p>At <strong>TechNova</strong>, we are a passionate team of developers and designers dedicated to building
+        cutting-edge digital experiences. With a focus on performance, usability, and aesthetics, we deliver solutions
+        that empower your business and engage your users.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="content">
+      <h2>Our Services</h2>
+      <ul class="services-list">
+        <li>
+          <h3>Web Development</h3>
+          <p>Modern, responsive websites built with HTML, CSS, JavaScript, and frameworks like React.</p>
+        </li>
+        <li>
+          <h3>UI/UX Design</h3>
+          <p>Intuitive, user-centered designs that improve usability and drive engagement.</p>
+        </li>
+        <li>
+          <h3>App Development</h3>
+          <p>Mobile applications for iOS and Android that scale and perform reliably.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="content">
+      <h2>Contact Us</h2>
+      <p>Have a question or want to work with us? Reach out anytime!</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
